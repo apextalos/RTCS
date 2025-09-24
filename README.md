@@ -12,6 +12,26 @@ Remote Traffic Camera Sensor Documentation
 
 [AT-RTCS Datasheet.pdf](https://github.com/user-attachments/files/22426871/AT-RTCS.Datasheet.pdf)
 
+## Hardware Features
+
+- Power button
+  - Press: you can press the power button twice in quick succession to shut down
+- Power LED indicator
+  - On: The device has been powered on
+  - Blink: Power supply of the device is abnormal, please power down immediately
+  - Off: The device is not powered on
+- Activity LED indicator
+  - Blink: The system started successfully and is reading and writing storage
+  - Off: The device is not powered on or is experiencing a storage failure
+- Yellow indicator of Ethernet port
+  - On: The link is in the normal state
+  - Blink: The Ethernet connection is abnormal
+  - Off: The link is not set up
+- Green indicator of Ethernet port
+  - On: The link is in the normal state
+  - Blink: Data is being transmitted
+  - Off: The link is down
+
 ## Configuration Tool
 
 - Monitoring
