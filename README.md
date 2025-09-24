@@ -14,6 +14,9 @@ Remote Traffic Camera Sensor Documentation
 
 ## Hardware Features
 
+- Power input
+  - Ethernet: if PoE power is present, it can be used to power the device
+  - USB C: standard 5VDC power up to 25W required  
 - Power button
   - Press: you can press the power button twice in quick succession to shut down
 - Power LED indicator
@@ -24,9 +27,9 @@ Remote Traffic Camera Sensor Documentation
   - Blink: The system started successfully and is reading and writing storage
   - Off: The device is not powered on or is experiencing a storage failure
 - Yellow indicator of Ethernet port
-  - On: The link is in the normal state
-  - Blink: The Ethernet connection is abnormal
-  - Off: The link is not set up
+  - On: The link is established at 1Gb speed
+  - Blink: The link is abnormal
+  - Off: The link is established at 10/100Mb speed
 - Green indicator of Ethernet port
   - On: The link is in the normal state
   - Blink: Data is being transmitted
